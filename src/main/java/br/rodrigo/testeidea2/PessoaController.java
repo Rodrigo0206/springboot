@@ -11,7 +11,7 @@ public class PessoaController {
 
     @GetMapping
     public ResponseEntity<Pessoa> getPessoa(){
-        final Pessoa pessoa = new Pessoa("Rodrigo e maria", 37);
+        final Pessoa pessoa = new Pessoa("Rodrigo eeeeee maria", 37);
         return ResponseEntity.ok(pessoa);
     }
 }
